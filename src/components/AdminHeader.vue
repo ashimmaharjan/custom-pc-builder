@@ -9,7 +9,7 @@
 <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
 <li><router-link to="/" class="nav-link px-2 text-white">Custom PC Builder</router-link></li>
 <li><router-link to="/about" class="nav-link px-2 text-white">Order</router-link></li>
-<li><router-link to="/about" class="nav-link px-2 text-white">Update Profile</router-link></li>
+<li><router-link to="/about" class="nav-link px-2 text-white">Profile</router-link></li>
 <li><router-link to="/admin/additem" class="nav-link px-2 text-white">Add Item</router-link></li>
 
 

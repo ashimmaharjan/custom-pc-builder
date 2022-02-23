@@ -1,5 +1,7 @@
 import { createApp } from 'vue'
 import App from './App.vue'
+import VueSweetalert2 from 'vue-sweetalert2';
+import 'sweetalert2/dist/sweetalert2.min.css';
 import HomeView from '../src/views/HomeView'
 import LoginView from '../src/views/LoginView'
 import AboutView from '../src/views/AboutView'
@@ -63,5 +65,6 @@ const router = createRouter({
 
     ]
 })
+app.use(VueSweetalert2);
 app.use(router)
 app.mount('#app')

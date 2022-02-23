@@ -10,8 +10,7 @@
 <li><router-link to="/" class="nav-link px-2 text-white">Custom PC Builder</router-link></li>
 <li><router-link to="/about" class="nav-link px-2 text-white">About Us</router-link></li>
 <li><router-link to="/contact" class="nav-link px-2 text-white">Contact Us</router-link></li>
-<!-- <li><router-link to="/about" class="nav-link px-2 text-white" v-if="isLoggedIn">Update Profile</router-link></li> -->
-<li><router-link to="/userprofile" class="nav-link px-2 text-white" v-if="isLoggedIn">Order</router-link></li>
+<li><router-link to="/userprofile" class="nav-link px-2 text-white" v-if="isLoggedIn">Profile</router-link></li>
 <li><router-link to="/admin/register" class="nav-link px-2 text-white"></router-link></li>
 </ul>
 <div class="text-end">
@@ -45,6 +44,7 @@ export default {
         logoutUser(){
             localStorage.clear()
             window.location.reload()
+            this.$router.push("/")
         }
     }
 }
