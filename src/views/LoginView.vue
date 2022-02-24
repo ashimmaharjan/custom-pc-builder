@@ -74,11 +74,13 @@
             <button
               type="submit"
               class="
-                btn btn-danger btn-block
-                text-uppercase
-                mb-2
-                rounded-pill
-                shadow-sm
+                bg-[#1C0A70]
+                uppercase
+                shadow-lg
+                w-full
+                py-3
+                text-white text-center
+                rounded-lg
               "
             >
               Login
