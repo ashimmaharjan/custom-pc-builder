@@ -16,8 +16,19 @@
       </div>
 
       <!-- Signup Form -->
-      <div class="col-span-1 h-full p-10">
-        <div class="w-[80%] mx-auto h-full bg-white shadow-md rounded-lg p-10">
+      <div class="col-span-1 h-full p-2 md:p-10">
+        <div
+          class="
+            w-[90%]
+            md:w-[80%]
+            mx-auto
+            h-full
+            bg-white
+            shadow-md
+            rounded-lg
+            p-5
+          "
+        >
           <h3 class="display-4">Login</h3>
           <br />
           <form @submit.prevent="loginUser">
