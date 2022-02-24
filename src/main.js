@@ -11,7 +11,8 @@ import AdminRegister from '../src/views/Admin/AdminRegister'
 import AdminLogin from '../src/views/Admin/AdminLogin'
 import AddItem from '../src/views/Admin/AddItem'
 import UserProfile from '../src/views/UserProfile'
-import {createRouter, createWebHistory} from "vue-router"
+import { createRouter, createWebHistory } from "vue-router"
+import './index.css'
 
 const app = createApp(App)
 const router = createRouter({
@@ -54,12 +55,12 @@ const router = createRouter({
         },
         {
             path: "/admin/additem",
-            name:"AddItem",
+            name: "AddItem",
             component: AddItem,
         },
         {
             path: "/userprofile",
-            name:"UserProfile",
+            name: "UserProfile",
             component: UserProfile,
         }
 
